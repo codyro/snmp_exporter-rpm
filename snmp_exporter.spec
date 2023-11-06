@@ -8,7 +8,7 @@ Summary:        A simple hierarchical database supporting plugin data sources
 License:        Apache-2.0
 URL:            https://github.com/prometheus/%{name}
 
-Source0:        https://github.com/prometheus/%{name}/archive/refs/tags/v%{ver    sion}.tar.gz
+Source0:        https://github.com/prometheus/%{name}/archive/refs/tags/v%{version}.tar.gz
 Source1:        %{name}.service
 Source2:        snmp.yml
 
