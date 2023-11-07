@@ -14,6 +14,7 @@ Source2:        snmp.yml
 
 BuildRequires:  git
 BuildRequires:  golang
+BuildRequires:  net-snmp-devel
 BuildRequires:  systemd-rpm-macros
 
 Provides:       %{name} = %{version}
