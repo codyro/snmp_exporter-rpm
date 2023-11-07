@@ -36,7 +36,7 @@ exit 0
 
 %install
 install -Dpm 0755 %{name}-%{version} %{buildroot}%{_bindir}/%{name}
-install -Dpm 0644 blackbox.yml %{buildroot}%{_sysconfdir}/%{name}/snmp.yml
+install -Dpm 0644 snmp.yml %{buildroot}%{_sysconfdir}/%{name}/snmp.yml
 install -D -m 0644 %{SOURCE1} %{buildroot}%{_unitdir}/%{name}.service
 
 %check
