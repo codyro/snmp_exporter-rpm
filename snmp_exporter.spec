@@ -12,6 +12,12 @@ Source0:        https://github.com/prometheus/%{name}/archive/refs/tags/v%{versi
 Source1:        %{name}.service
 Source2:        snmp.yml
 
+BuildRequires:  git
+BuildRequires:  golang
+BuildRequires:  systemd-rpm-macros
+
+Provides:       %{name} = %{version}
+
 %description
 Prometheus exporter for SNMP metrics exposed by *NIX kernels, written in Go with pluggable metric collectors.
 
